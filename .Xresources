@@ -1,0 +1,17 @@
+XTerm.termName: xterm-256color
+XTerm.vt100.locale: false
+XTerm.vt100.utf8: true
+XTerm.vt100.saveLines: 4096
+XTerm.vt100.foreground: rgb:EE/EE/EE
+XTerm.vt100.background: rgb:07/07/07
+XTerm.vt100.faceName: Iosevka Fixed:size=18
+XTerm.vt100.font: 7x13
+XTerm.vt100.boldFont: 7x13
+XTerm.vt100.bellIsUrgent: true
+XTerm.vt100.scaleHeight: 1.1
+XTerm*VT100.Translations: #override\
+	Shift Ctrl<Key>V: insert-selection(CLIPBOARD)\n\
+	Shift Ctrl<Key>V: insert-selection(PRIMARY)\n\
+	Shift<Btn1Down>: select-start()\n\
+	Shift<Btn1Motion>: select-extend() \n\
+	Shift<Btn1Up>: select-end(CLIPBOARD) \n\
