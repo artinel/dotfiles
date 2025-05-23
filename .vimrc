@@ -3,6 +3,7 @@ Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'zivyangll/git-blame.vim'
 Plug 'airblade/vim-gitgutter'
+Plug 'cocopon/vaffle.vim'
 call plug#end()
 
 " FZF shortcuts
@@ -38,6 +39,12 @@ nnoremap <S-m> :make<CR>
 nnoremap <S-a> :make all<CR>
 nnoremap <S-r> :make run<CR>
 nnoremap <S-c> :make clean<CR>
+
+" Vaffle
+command! VaffleTab tabnew | Vaffle
+execute "set <M-f>=\ef"
+nnoremap <M-f> :Vaffle<CR>
+nnoremap <S-f> :VaffleTab<CR>
 
 colorscheme industry
 set wildoptions=pum
