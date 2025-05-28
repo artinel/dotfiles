@@ -4,6 +4,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'zivyangll/git-blame.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'cocopon/vaffle.vim'
+Plug 'ludovicchabant/vim-gutentags'
 call plug#end()
 
 " FZF shortcuts
@@ -53,3 +54,5 @@ highlight LineNr ctermfg=white
 syntax off
 packadd! termdebug
 set updatetime=100
+
+
